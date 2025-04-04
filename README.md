@@ -10,6 +10,8 @@
 
 ### 2nd Commit
 
+- I want to drop the "Close" column, and rename the "Adj Close" column to "Close".
+
 ### 3rd Commit
 
 ### 4th Commit

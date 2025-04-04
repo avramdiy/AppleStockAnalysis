@@ -10,6 +10,14 @@ def index():
     # Read CSV into DataFrame
     df = pd.read_csv(DATA_PATH)
 
+    # Drop the original "Close" column
+    if 'Close' in df.columns:
+        df.drop(columns=['Close'], inplace=True)
+
+    # Rename "Adj Close" to "Close"
+    if 'Adj Close' in df.columns:
+        df.rename(columns={'Adj Close': 'Close'}, inplace=True)
+
     # Convert DataFrame to HTML
     table_html = df.to_html(classes='table table-bordered table-hover', index=False)
 
