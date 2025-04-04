@@ -18,4 +18,6 @@
 
 ### 4th Commit
 
+- Using dates from 1990 - 1999, I want to create a chart that plots the monthly average "High" and the monthly average "Low" as line plots. I also want to show a le6 scale of the monthly average "Volume" traded as a bar chart on the same chart graphic. I want all of this to be featured on a new route.
+
 ### 5th Commit
